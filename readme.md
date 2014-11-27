@@ -67,7 +67,7 @@ $ cd docroot/sites/all/themes/contrib
 $ yo
 ```
 
-Select the
+Select the `Drupal Theme` and go ahead with your wished setup.
 
 
 Enhanced by Yokai's, credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
