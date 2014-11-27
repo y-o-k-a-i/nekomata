@@ -12,8 +12,8 @@ Drupal boilerplate tries to simplify starting a new site by having the most comm
 directory structures and files already included and set up.
 
 ##Getting started##
-You can start by [downloading](https://github.com/y-o-k-a-i/neko-mata/archive/master.zip)
-this project.
+You can start by either [downloading](https://github.com/y-o-k-a-i/neko-mata/archive/master.zip)
+the project manually and move it to the wished place or download it with `wget`.
 
 ```
 $ wget https://github.com/y-o-k-a-i/neko-mata/archive/master.zip
