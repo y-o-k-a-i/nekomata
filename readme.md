@@ -38,7 +38,7 @@ read the readme inside the specific directory.
    to this directory for parsing by external tools.
 * [scripts](https://github.com/y-o-k-a-i/nekomata/tree/master/scripts)
  * A directory for project-specific scripts.
-* [test](https://github.com/y-o-k-a-i/nekomata/tree/master/tests)
+* [tests](https://github.com/y-o-k-a-i/nekomata/tree/master/tests)
  * A directory for external tests. This is great for non drupal specific tests
  such as selenium, qunit, casperjs.
 * [.gitignore](https://github.com/y-o-k-a-i/nekomata/blob/master/.gitignore)
