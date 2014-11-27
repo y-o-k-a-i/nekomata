@@ -13,10 +13,12 @@ directory structures and files already included and set up.
 
 ##Getting started##
 You can start by either [downloading](https://github.com/y-o-k-a-i/neko-mata/archive/master.zip)
-the project manually and move it to the wished place or download it with `wget`.
+the project manually and move it to the wished place or do this by the command line.
 
 ```
 $ wget https://github.com/y-o-k-a-i/neko-mata/archive/master.zip
+$ tar -xvf master.zip && rm master.zip
+$ mv neko-mata-master <project-name>
 ```
 
 Once you download it you will find that every folder contains a readme.md file.
