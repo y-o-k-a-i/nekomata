@@ -3,22 +3,6 @@
 
 It is a fork of [Lullabot Servo](https://github.com/Lullabot/drupal-boilerplate) but got adjusted and enhanced to the needs of Yokai.
 
-## Install Profile Instructions
-```
-$ cd docroot
-$ drush make neko-mata.make
-```
-
-Then install Drupal, selecting the "Neko-Mata" profile. This will give you
-
-* Responsive toolbar
-* Shiny admin theme
-* CKEditor with a HTML Purifier based filter and Linkit
-* Basic "Page" content type
-* The windup starter theme with automation tools already configured
-
--
-
 #Drupal Boilerplate#
 
 Drupal boilerplate is not a module. Instead it just serves as a directory structure for
@@ -53,6 +37,20 @@ read the readme inside the specific directory.
  such as selenium, qunit, casperjs.
 * [.gitignore](https://github.com/y-o-k-a-i/neko-mata/blob/master/.gitignore)
  * Contains the a list of the most common excluded files.
+
+## Install Profile Instructions
+```
+$ cd docroot
+$ drush make neko-mata.make
+```
+
+Then install Drupal, selecting the "Neko-Mata" profile. This will give you
+
+* Responsive toolbar
+* Shiny admin theme
+* CKEditor with a HTML Purifier based filter and Linkit
+* Basic "Page" content type
+* The windup starter theme with automation tools already configured
 
 
 Enhanced by Yokai's, credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
