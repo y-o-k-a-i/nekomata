@@ -13,7 +13,7 @@ directory structures and files already included and set up.
 
 ##Getting started##
 You can start by either [downloading](https://github.com/y-o-k-a-i/neko-mata/archive/master.zip)
-the project manually and move it to the wished place or do this by the command line.
+the project manually and move it to the wished directory or do this by command line, assuming you are already in the whished directory.
 
 ```
 $ wget https://github.com/y-o-k-a-i/neko-mata/archive/master.zip
