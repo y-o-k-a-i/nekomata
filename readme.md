@@ -1,13 +1,13 @@
-# Servo
-This is a fork of [Drupal Boilerplate](https://github.com/Lullabot/drupal-boilerplate), but with the addition of an installation profile.
+# Neko-Mata
+This is Yokai's Drupal Boilerplate.
 
 ## Install Profile Instructions
 ```
 $ cd docroot
-$ drush make servo.make
+$ drush make neko-mata.make
 ```
 
-Then install Drupal, selecting the "Servo" profile. This will give you
+Then install Drupal, selecting the "Neko-Mata" profile. This will give you
 
 * Responsive toolbar
 * Shiny admin theme
@@ -53,4 +53,6 @@ read the readme inside the specific directory.
 * [.gitignore](https://github.com/Lullabot/drupal-boilerplate/blob/master/.gitignore)
  * Contains the a list of the most common excluded files.
 
-Built by Robots&trade;
+Built by Yokai's&trade;
+
+Credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
