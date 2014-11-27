@@ -12,7 +12,7 @@ Drupal boilerplate tries to simplify starting a new site by having the most comm
 directory structures and files already included and set up.
 
 ##Getting started##
-You can start by [downloading](https://github.com/y-o-k-a-i/neko-mata/zipball/master)
+You can start by [downloading](https://github.com/y-o-k-a-i/neko-mata/archive/master.zip)
 this project. Once you download it you will find that every folder contains a readme.md file.
 This readme.md file has been extensively documented to explain what belongs
 in that specific directory.
