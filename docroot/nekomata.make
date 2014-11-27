@@ -15,10 +15,8 @@ projects[] = ckeditor
 projects[] = linkit
 
 ; Themes
-projects[] = shiny
-projects[windup][type] = theme
-projects[windup][download][type] = git
-projects[windup][download][url] = git://github.com/Lullabot/windup
+projects[] = adminimal_theme
+; projects[] = aurora
 
 ; Libraries
 libraries[backbone][download][type] = "get"
@@ -45,4 +43,3 @@ libraries[underscore][download][type] = "get"
 libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.7.0.tar.gz"
 libraries[underscore][directory_name] = "underscore"
 libraries[underscore][type] = "library"
-
