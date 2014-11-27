@@ -3,7 +3,7 @@
 
 It is a fork of [Lullabot Servo](https://github.com/Lullabot/drupal-boilerplate) but got adjusted and enhanced to the needs of Yokai.
 
-#Drupal Boilerplate#
+##Drupal Boilerplate##
 
 Drupal boilerplate is not a module. Instead it just serves as a directory structure for
 starting a new drupal site. The idea behind Drupal boilerplate came from working on so many
