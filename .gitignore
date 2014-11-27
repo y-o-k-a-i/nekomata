@@ -10,6 +10,20 @@ docroot/files
 docroot/sites/*/files
 docroot/sites/*/private
 
+# Modules #
+###########
+# Development
+docroot/sites/all/modules/contrib/devel
+docroot/sites/all/modules/contrib/browsersync
+
+# Audit
+docroot/sites/all/modules/contrib/missing_module
+docroot/sites/all/modules/contrib/unused_modules
+
+# Content Staging
+docroot/sites/all/modules/contrib/stage_file_proxy
+
+
 # Vagrant Files #
 #################
 .vagrant
@@ -39,8 +53,12 @@ docroot/sites/*/private
 # Logs and databases #
 ######################
 *.log
-*.sql
+#*.sql #DB dumps get included and are comparable with git
 *.sqlite
+
+# Cache files #
+###############
+cache/*
 
 # OS generated files #
 ######################
@@ -52,3 +70,5 @@ Thumbs.db
 # IDEs #
 ########
 .idea
+*.sublime-project
+*.sublime-workspace
