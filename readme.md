@@ -12,13 +12,13 @@ Drupal boilerplate tries to simplify starting a new site by having the most comm
 directory structures and files already included and set up.
 
 ##Getting started##
-You can start by either [downloading](https://github.com/y-o-k-a-i/neko-mata/archive/master.zip)
+You can start by either [downloading](https://github.com/y-o-k-a-i/nekomata/archive/master.zip)
 the project manually and move it to the wished directory or do this by command line, assuming you are already in the whished directory.
 
 ```
-$ wget https://github.com/y-o-k-a-i/neko-mata/archive/master.zip
+$ wget https://github.com/y-o-k-a-i/nekomata/archive/master.zip
 $ tar -xvf master.zip && rm master.zip
-$ mv neko-mata-master <project-name>
+$ mv nekomata-master <project-name>
 ```
 
 Once you download it you will find that every folder contains a readme.md file.
@@ -28,29 +28,29 @@ in that specific directory.
 Here's a breakdown for what each directory/file is used for. If you want to know more please
 read the readme inside the specific directory.
 
-* [docroot](https://github.com/y-o-k-a-i/neko-mata/tree/master/docroot)
+* [docroot](https://github.com/y-o-k-a-i/nekomata/tree/master/docroot)
  * Where your drupal root should start.
-* [drush](https://github.com/y-o-k-a-i/neko-mata/tree/master/drush)
+* [drush](https://github.com/y-o-k-a-i/nekomata/tree/master/drush)
  * Contains project specific drush commands, aliases, and configurations.
-* [results](https://github.com/y-o-k-a-i/neko-mata/tree/master/results)
+* [results](https://github.com/y-o-k-a-i/nekomata/tree/master/results)
  * This directory is just used to export test results to. A good example of this
    is when running drush test-run with the --xml option. You can export the xml
    to this directory for parsing by external tools.
-* [scripts](https://github.com/y-o-k-a-i/neko-mata/tree/master/scripts)
+* [scripts](https://github.com/y-o-k-a-i/nekomata/tree/master/scripts)
  * A directory for project-specific scripts.
-* [test](https://github.com/y-o-k-a-i/neko-mata/tree/master/tests)
+* [test](https://github.com/y-o-k-a-i/nekomata/tree/master/tests)
  * A directory for external tests. This is great for non drupal specific tests
  such as selenium, qunit, casperjs.
-* [.gitignore](https://github.com/y-o-k-a-i/neko-mata/blob/master/.gitignore)
+* [.gitignore](https://github.com/y-o-k-a-i/nekomata/blob/master/.gitignore)
  * Contains the a list of the most common excluded files.
 
 ## Install Profile Instructions
 ```
 $ cd docroot
-$ drush make neko-mata.make
+$ drush make nekomata.make
 ```
 
-Then install Drupal, selecting the "Neko-Mata" profile. This will give you
+Then install Drupal, selecting the "Neko-mata" profile. This will give you
 
 * Responsive toolbar
 * Shiny admin theme
