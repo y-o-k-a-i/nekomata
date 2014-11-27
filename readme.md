@@ -53,6 +53,4 @@ read the readme inside the specific directory.
 * [.gitignore](https://github.com/Lullabot/drupal-boilerplate/blob/master/.gitignore)
  * Contains the a list of the most common excluded files.
 
-Built by Yokai's&trade;
-
-Credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
+Enhanced by Yokai's, credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
