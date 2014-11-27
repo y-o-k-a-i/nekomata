@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Install, update and uninstall functions for the Lullabot Boilerplate installation profile.
+ * Install, update and uninstall functions for the Neko-Mata (Yokai Boilerplate) installation profile.
  */
 
 /**
@@ -11,13 +11,13 @@
  *
  * @see system_install()
  */
-function servo_install()
+function nekomata_install()
 {
   // Set the admin theme.
   variable_set('admin_theme', 'shiny');
   variable_set('node_admin_theme', 1);
   variable_set('theme_default', 'windup');
-  
+
 
   // Add a text filter.
   $filtered_html = array(
