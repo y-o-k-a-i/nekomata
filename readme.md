@@ -48,7 +48,7 @@ read the readme inside the specific directory.
    to this directory for parsing by external tools.
 * [scripts](https://github.com/y-o-k-a-i/neko-mata/tree/master/scripts)
  * A directory for project-specific scripts.
-* [test](https://github.com/y-o-k-a-i/neko-mata/tree/master/test)
+* [test](https://github.com/y-o-k-a-i/neko-mata/tree/master/tests)
  * A directory for external tests. This is great for non drupal specific tests
  such as selenium, qunit, casperjs.
 * [.gitignore](https://github.com/y-o-k-a-i/neko-mata/blob/master/.gitignore)
