@@ -66,20 +66,20 @@ $ drush make nekomata.make
 
 * Create a database `<dbname>`
 * Check if `sites/default/files` exists and is writable
-* copy `sites/default/example.settings.php` to `settings.php`
+* copy `sites/default/default.settings.php` to `settings.php`
 
 Then install Drupal, selecting the "Neko-Mata" profile.
 
 ```shell
-$ drush si nekomata
-           --db-url=mysql://<user>:<pass>@localhost/<dbname>
-           --db-su=<user>
-           --db-su-pw=<pass>
-           --account-name=<user>
-           --account-pass=<pass>
-           --account-mail=<email>
-           --locale=<langcode>
-           --site-name=<name>
+$ drush si nekomata \
+           --db-url="mysql://<user>:<pass>@localhost/<dbname>" \
+           --db-su=<user>           \
+           --db-su-pw=<pass>        \
+           --account-name=<user>    \
+           --account-pass=<pass>    \
+           --account-mail=<email>   \
+           --locale=<langcode>      \
+           --site-name="<name>"     \
            --site-mail=<email>
 ```
 
