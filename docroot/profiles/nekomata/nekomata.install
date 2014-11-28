@@ -16,7 +16,7 @@ function nekomata_install()
   // Set the admin theme.
   variable_set('admin_theme', 'adminimal_theme');
   variable_set('node_admin_theme', 1);
-  // variable_set('theme_default', '<generated_drupal_theme>');
+  variable_set('theme_default', 'aurora');
 
 
   // Add a text filter.

@@ -16,7 +16,7 @@ projects[] = linkit
 
 ; Themes
 projects[] = adminimal_theme
-; projects[] = aurora
+projects[] = aurora
 
 ; Libraries
 libraries[backbone][download][type] = "get"
