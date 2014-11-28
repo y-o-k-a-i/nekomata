@@ -11,14 +11,14 @@ deployment guidelines, etc...
 Drupal boilerplate tries to simplify starting a new site by having the most common
 directory structures and files already included and set up.
 
-Prerequisites: You will need `node`, `npm` and `drush` to use the boilerplate.
+*Prerequisites* You will need `node`, `npm` and `drush` to use the boilerplate.
 Install `yeoman` and `generator-drupal-theme` globally with `npm`.
 
 ##Getting started##
 You can start by either [downloading](https://github.com/y-o-k-a-i/nekomata/archive/master.zip)
 the project manually and move it to the wished directory or do this by command line, assuming you are already in the whished directory.
 
-```
+```shell
 $ wget https://github.com/y-o-k-a-i/nekomata/archive/master.zip
 $ tar -xvf master.zip && rm master.zip
 $ mv nekomata-master <project-name>
@@ -48,7 +48,7 @@ read the readme inside the specific directory.
  * Contains the a list of the most common excluded files.
 
 ## Install Profile Instructions
-```
+```shell
 $ cd docroot
 $ drush make nekomata.make
 ```
@@ -62,7 +62,7 @@ Then install Drupal, selecting the "Neko-Mata" profile. This will give you
 * (TODO: move content types to own modules, Basic "Page" content type)
 
 ## Theme Instructions
-```
+```shell
 $ cd docroot/sites/all/themes/contrib
 $ yo
 ```
