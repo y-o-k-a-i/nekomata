@@ -18,10 +18,11 @@ directory structures and files already included and set up.
 
 ##Prerequisites##
 
+Packages | 
 ------------ |
 `node` / `npm` |
 `yeoman` |
-`generator-drupal-theme` | 
+`generator-drupal-theme` |
 `drush` |
 
 
