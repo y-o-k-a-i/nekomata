@@ -11,8 +11,14 @@ deployment guidelines, etc...
 Drupal boilerplate tries to simplify starting a new site by having the most common
 directory structures and files already included and set up.
 
-*Prerequisites* You will need `node`, `npm` and `drush` to use the boilerplate.
-Install `yeoman` and `generator-drupal-theme` globally with `npm`.
+Prerequisites | Description
+------------ | ------------
+`node` |
+`npm` |
+`yeoman` | globally installed
+`generator-drupal-theme` | globally installed
+`drush` |
+
 
 ##Getting started##
 You can start by either [downloading](https://github.com/y-o-k-a-i/nekomata/archive/master.zip)
@@ -53,7 +59,11 @@ $ cd docroot
 $ drush make nekomata.make
 ```
 
-Then install Drupal, selecting the "Neko-Mata" profile. This will give you
+Then install Drupal, selecting the "Neko-Mata" profile.
+
+
+
+This will give you
 
 * Responsive toolbar
 * Adminimal admin theme
