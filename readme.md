@@ -1,7 +1,9 @@
 # Neko-Mata
-[Neko-Mata](http://yokai.com/?s=nekomata) is Yokai's Drupal Boilerplate to control and tame the Drupal puppets. It is a fork of [Lullabot Servo](https://github.com/Lullabot/drupal-boilerplate) but got adjusted and enhanced to the needs of Yokai.
+[Neko-Mata](http://yokai.com/?s=nekomata) is Yokai's Drupal Boilerplate to control and tame the Drupal puppets.
+It is a fork of [Lullabot Servo](https://github.com/Lullabot/drupal-boilerplate) but got adjusted and enhanced to the needs of Yokai.
 
-![Neko-Mata, credits Ben Newman](http://i.imgur.com/dqKifux.jpg)
+![Neko-Mata](http://i.imgur.com/dqKifux.jpg)
+*Image credits, Ben Newman*
 
 ##Drupal Boilerplate##
 
