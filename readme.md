@@ -18,7 +18,7 @@ directory structures and files already included and set up.
 
 ##Prerequisites##
 
-Packages | 
+Packages |
 ------------ |
 `node` / `npm` |
 `yeoman` |
@@ -60,7 +60,7 @@ read the readme inside the specific directory.
 
 ## Install Profile Instructions
 ```shell
-$ cd docroot
+$ cd <project-name>/docroot
 $ drush make nekomata.make
 ```
 
