@@ -16,12 +16,12 @@ deployment guidelines, etc...
 Drupal boilerplate tries to simplify starting a new site by having the most common
 directory structures and files already included and set up.
 
+##Prerequisites##
 
-Prerequisites | Description
------------- | ------------
+------------ |
 `node` / `npm` |
-`yeoman` | globally installed
-`generator-drupal-theme` | globally installed
+`yeoman` |
+`generator-drupal-theme` | 
 `drush` |
 
 
