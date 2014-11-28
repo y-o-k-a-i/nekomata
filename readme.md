@@ -1,6 +1,8 @@
 # Neko-Mata
 [Neko-Mata](http://yokai.com/?s=nekomata) is Yokai's Drupal Boilerplate to control and tame the Drupal puppets. It is a fork of [Lullabot Servo](https://github.com/Lullabot/drupal-boilerplate) but got adjusted and enhanced to the needs of Yokai.
 
+![Huge Neko-Mata](http://upload.wikimedia.org/wikipedia/commons/e/e8/Kunisada-Nekomata-1847-02.jpg)
+
 ##Drupal Boilerplate##
 
 Drupal boilerplate is not a module. Instead it just serves as a directory structure for
@@ -59,11 +61,25 @@ $ cd docroot
 $ drush make nekomata.make
 ```
 
+* Create a database `<dbname>`
+* Check if `sites/default/files` exists and is readable
+* copy `sites/default/example.settings.php` to `settings.php`
+
 Then install Drupal, selecting the "Neko-Mata" profile.
 
+```shell
+$ drush si nekomata
+           --db-url=mysql://<root>:<pass>@localhost/<dbname>
+           --account-name=<root>
+           --account-pass=<pass>
+           --account-mail=<mail>
+           --locale=<langcode>
+           --site-name=<name>
+           --site-mail=<mail>
 
+```
 
-This will give you
+Which will give you:
 
 * Responsive toolbar
 * Adminimal admin theme
