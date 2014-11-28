@@ -5,6 +5,10 @@ defaults[projects][subdir] = "contrib"
 
 projects[] = drupal
 
+; Languages
+translations[] = de
+translations[] = fr
+
 ; Modules
 projects[] = ctools
 projects[] = entity
@@ -43,3 +47,10 @@ libraries[underscore][download][type] = "get"
 libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.7.0.tar.gz"
 libraries[underscore][directory_name] = "underscore"
 libraries[underscore][type] = "library"
+
+
+; Local
+;includes[example] = "example.make"
+;includes[example_relative] = "../example_relative/example_relative.make"
+; Remote
+;includes[remote] = "http://www.example.com/remote.make"
