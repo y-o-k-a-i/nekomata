@@ -83,7 +83,7 @@ $ drush si nekomata \
            --site-mail=<email>
 ```
 
-Which will give you:
+This will give you:
 
 * Responsive toolbar
 * Adminimal admin theme
@@ -92,12 +92,14 @@ Which will give you:
 * (TODO: move content types to own modules, Basic "Page" content type)
 
 ## Theme Instructions
+
+Run these commands
 ```shell
 $ cd docroot/sites/all/themes/contrib
-$ yo
+$ yo drupal-theme
 ```
 
-Select the `Drupal Theme` and go ahead with your wished setup.
+... and go ahead with your wished setup.
 
 
 Enhanced by Yokai's, credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
