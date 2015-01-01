@@ -23,10 +23,13 @@ docroot/sites/all/modules/contrib/unused_modules
 # Content Staging
 docroot/sites/all/modules/contrib/stage_file_proxy
 
-
 # Vagrant Files #
 #################
 .vagrant
+
+# Front End Stack #
+###################
+*.css.map
 
 # Compiled source #
 ###################

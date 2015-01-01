@@ -28,7 +28,7 @@ Packages |
 
 ##Getting started##
 You can start by either [downloading](https://github.com/y-o-k-a-i/nekomata/archive/master.zip)
-the project manually and move it to the wished directory or do this by command line, assuming you are already in the whished directory.
+the project manually and move it to the wished directory or do this by command line, assuming you are already in the wished directory.
 
 ```shell
 $ wget https://github.com/y-o-k-a-i/nekomata/archive/master.zip
