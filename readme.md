@@ -101,5 +101,21 @@ $ yo drupal-theme
 
 ... and go ahead with your wished setup.
 
+## Project specific notes
+
+### PHP configuration
+
+File location `/usr/local/etc/php/5.5/php.ini` with brew setup.
+
+e.g.
+
+```
+; How many GET/POST/COOKIE input variables may be accepted (default 1000)
+max_input_vars = 1500
+
+; Maximum amount of memory a script may consume (128MB)
+; http://php.net/memory-limit
+memory_limit = 256M
+```
 
 Enhanced by Yokai's, credits to the [Lullabot](https://github.com/Lullabot) Robots&trade;
