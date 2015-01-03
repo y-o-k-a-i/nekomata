@@ -111,7 +111,7 @@ e.g.
 
 ```
 ; How many GET/POST/COOKIE input variables may be accepted (default 1000)
-max_input_vars = 1500
+max_input_vars = 3000
 
 ; Maximum amount of memory a script may consume (128MB)
 ; http://php.net/memory-limit
