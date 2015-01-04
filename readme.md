@@ -101,19 +101,32 @@ $ yo drupal-theme
 
 ... and go ahead with your wished setup.
 
-## Project specific notes
+## Project specific notes using brew (br)
 
-### PHP configuration
+### MySQL configuration
 
-File location `/usr/local/etc/php/5.5/php.ini` with brew setup.
+File location  `/usr/local/Cellar/mysql/VERSION/my.cnf`
 
 e.g.
 
 ```
+# YOKAI MySQL settings
+max_allowed_packet=512M
+```
+
+### PHP configuration
+
+File location `/usr/local/etc/php/VERSION/php.ini`
+
+e.g.
+
+```
+;YOKAI PHP settings
+
 ; How many GET/POST/COOKIE input variables may be accepted (default 1000)
 max_input_vars = 3000
 
-; Maximum amount of memory a script may consume (128MB)
+; Maximum amount of memory a script may consume (default 128MB)
 ; http://php.net/memory-limit
 memory_limit = 256M
 ```
