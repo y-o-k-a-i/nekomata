@@ -127,8 +127,6 @@ dependencies[] = views_bulk_operations
 
 dependencies[] = webform
 dependencies[] = webform_hints
-dependencies[] = webform_optionsmarkup
-
 
 
 ; Taxonomy
