@@ -61,7 +61,7 @@ read the readme inside the specific directory.
 ## Install Profile Instructions
 ```shell
 $ cd <project-name>/docroot
-$ drush make make drupal-org-core.make
+$ drush make drupal-org-core.make
 $ drush make nekomata.make
 ```
 
