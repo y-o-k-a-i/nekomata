@@ -1,6 +1,3 @@
-name = Neko-Mata
-description = Installs some basic editorial tools.
-core = 7.x
 
 
 ; Core
@@ -20,7 +17,7 @@ dependencies[] = field_ui
 dependencies[] = file
 
 ; Themes
-dependencies[] = adminimal
+dependencies[] = adminimal_theme
 dependencies[] = aurora
 
 
@@ -32,9 +29,10 @@ dependencies[] = ctools
 ; Configuration Management (CMI)
 
 dependencies[] = features
-dependencies[] = features_extra
+dependencies[] = fe_block
 dependencies[] = strongarm
 dependencies[] = variable
+dependencies[] = variable_admin
 
 
 ; Libraries
@@ -48,6 +46,10 @@ dependencies[] = modernizr
 dependencies[] = jquery_update
 
 
+
+
+
+
 ; -----------------------------------
 ; Site Building
 ; -----------------------------------
@@ -56,6 +58,8 @@ dependencies[] = jquery_update
 
 dependencies[] = pathauto
 dependencies[] = rabbit_hole
+dependencies[] = rh_node
+dependencies[] = rh_taxonomy
 
 ; Menus
 
@@ -75,6 +79,9 @@ dependencies[] = inline_entity_form
 
 dependencies[] = entityreference
 dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_all_day
+dependencies[] = date_popup
 dependencies[] = email
 dependencies[] = addressfield
 dependencies[] = telephone
@@ -90,6 +97,7 @@ dependencies[] = filefield_sources
 
 dependencies[] = field_group
 dependencies[] = paragraphs
+dependencies[] = paragraphs_bundle_permissions
 
 
 ; Blocks
@@ -100,12 +108,16 @@ dependencies[] = blockify
 ; Display Suite
 
 dependencies[] = ds
-
+dependencies[] = ds_ui
+dependencies[] = ds_extras
+dependencies[] = ds_format
+dependencies[] = ds_forms
 
 
 ; Views
 
 dependencies[] = views
+dependencies[] = views_ui
 
 dependencies[] = better_exposed_filters
 dependencies[] = admin_views
@@ -184,6 +196,7 @@ dependencies[] = module_filter
 ; Better Markup
 
 dependencies[] = borealis
+dependencies[] = borealis_sb
 dependencies[] = magic
 dependencies[] = fences
 dependencies[] = html5_tools
