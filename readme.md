@@ -80,7 +80,8 @@ $ drush si nekomata \
            --account-mail=<email>   \
            --locale=<langcode>      \
            --site-name="<name>"     \
-           --site-mail=<email>
+           --site-mail=<email>      \
+           --notify
 ```
 
 This will give you:
