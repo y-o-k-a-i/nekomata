@@ -48,10 +48,6 @@ dependencies[] = modernizr
 dependencies[] = jquery_update
 
 
-
-
-
-
 ; -----------------------------------
 ; Site Building
 ; -----------------------------------
