@@ -13,11 +13,9 @@
  */
 function nekomata_install()
 {
-  // Set the admin theme.
-  variable_set('admin_theme', 'adminimal_theme');
-  variable_set('node_admin_theme', 1);
-  variable_set('theme_default', 'aurora');
-
+  // Admin theme.
+  $default_theme = variable_get('theme_default', 'aurora');
+  $admin_theme = 'adminimal_theme'; 
 
   // Add a text filter.
   $filtered_html = array(
@@ -311,4 +309,13 @@ function nekomata_install()
       "format" => 'filtered_html'
     ))
     ->execute();
+    
+  // Enable the admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'adminimal_theme')
+    ->execute();
+  variable_set('admin_theme', $admin_theme);
+  variable_set('node_admin_theme', '1');
 }
