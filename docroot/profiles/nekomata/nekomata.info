@@ -2,9 +2,29 @@ name = Neko-Mata
 description = Installs some basic editorial tools.
 core = 7.x
 
-dependencies[] = htmlpurifier
+; core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+
+
+; libraries
 dependencies[] = libraries
+
 dependencies[] = navbar
 dependencies[] = ckeditor
+dependencies[] = htmlpurifier
+
+; modules
 dependencies[] = linkit
-dependencies[] = menu
