@@ -14,14 +14,10 @@
 function nekomata_install()
 {
   // Enable the Adminimal Theme
-  //theme_enable(array('adminimal_theme'));
+  theme_enable(array('adminimal_theme'));
   // Enable the Aurora theme
   theme_enable(array('aurora'));
   variable_set('theme_default', 'aurora');
-
-  // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'aurora');
-  $admin_theme = 'adminimal_theme';
 
   // Add a text filter.
   $filtered_html = array(
@@ -315,13 +311,4 @@ function nekomata_install()
       "format" => 'filtered_html'
     ))
     ->execute();
-    
-  // Enable the admin theme.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'adminimal_theme')
-    ->execute();
-  variable_set('admin_theme', $admin_theme);
-  variable_set('node_admin_theme', '1');
 }
