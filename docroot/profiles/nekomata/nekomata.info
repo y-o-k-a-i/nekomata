@@ -2,7 +2,8 @@ name = Neko-Mata
 description = Installs some basic editorial tools.
 core = 7.x
 
-; core
+
+; Core
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = dashboard
@@ -18,13 +19,199 @@ dependencies[] = shortcut
 dependencies[] = field_ui
 dependencies[] = file
 
+; Themes
+dependencies[] = adminimal
+dependencies[] = aurora
 
-; libraries
+
+; Basics 
+dependencies[] = token
+dependencies[] = ctools
+
+
+; Configuration Management (CMI)
+
+dependencies[] = features
+dependencies[] = features_extra
+dependencies[] = strongarm
+dependencies[] = variable
+
+
+; Libraries
 dependencies[] = libraries
 
 dependencies[] = navbar
 dependencies[] = ckeditor
 dependencies[] = htmlpurifier
+dependencies[] = chosen
+dependencies[] = modernizr
+dependencies[] = jquery_update
 
-; modules
+
+
+
+
+
+; -----------------------------------
+; Site Building
+; -----------------------------------
+
+; URLs
+
+dependencies[] = pathauto
+dependencies[] = rabbit_hole
+
+; Menus
+
+dependencies[] = menu_position
+dependencies[] = menu_block
+dependencies[] = menu_attributes
+dependencies[] = simplified_menu_admin
+
+
+; Entities
+
+dependencies[] = entity
+dependencies[] = inline_entity_form
+
+
+; Fields
+
+dependencies[] = entityreference
+dependencies[] = date
+dependencies[] = email
+dependencies[] = addressfield
+dependencies[] = telephone
+dependencies[] = link
+dependencies[] = field_collection
+dependencies[] = video_embed_field
+dependencies[] = double_field
+dependencies[] = viewfield
+dependencies[] = filefield_sources
+
+
+; Collection of fields
+
+dependencies[] = field_group
+dependencies[] = paragraphs
+
+
+; Blocks
+
+dependencies[] = blockify
+
+
+; Display Suite
+
+dependencies[] = ds
+
+
+
+; Views
+
+dependencies[] = views
+
+dependencies[] = better_exposed_filters
+dependencies[] = admin_views
+dependencies[] = views_bulk_operations
+
+
+; Forms
+
+dependencies[] = webform
+dependencies[] = webform_hints
+dependencies[webform_optionsmarkup] = 2.0-alpha1
+
+
+
+; Taxonomy
+
+dependencies[] = taxonomy_display
+
+
+; User
+
+dependencies[] = login_destination
+
+
+; -----------------------------------
+; Content Creation
+; -----------------------------------
+
+; Formats
+
+dependencies[] = better_formats
+
+
+; Inline Editing
+
+dependencies[] = quickedit
+dependencies[] = quickedit_tab
+
+
+; Media
+
+
+
+
+; Referencing
+
 dependencies[] = linkit
+
+; -----------------------------------
+; Content Administration
+; -----------------------------------
+
+dependencies[] = view_unpublished
+
+
+
+; -----------------------------------
+; Backend Administration
+; -----------------------------------
+
+; Menu
+
+dependencies[] = escape_admin
+dependencies[] = masquerade
+
+
+; Modules
+
+dependencies[] = module_filter
+
+
+; -----------------------------------
+; Design / Theming
+; -----------------------------------
+
+; Better Markup
+
+dependencies[] = borealis
+dependencies[] = magic
+dependencies[] = fences
+dependencies[] = html5_tools
+dependencies[] = elements
+dependencies[] = typogrify
+
+
+; Formatters
+
+dependencies[] = field_formatter_settings
+dependencies[] = linked_field
+
+
+; -----------------------------------
+; UX - UI
+; -----------------------------------
+
+dependencies[] fastclick
+
+
+
+; -----------------------------------
+; Tools
+; -----------------------------------
+
+; Help
+dependencies[] = advanced_help
