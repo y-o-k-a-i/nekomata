@@ -61,7 +61,7 @@ read the readme inside the specific directory.
 ## Install Profile Instructions
 ```shell
 $ cd <project-name>/docroot
-$ drush make nekomata.make
+$ drush make nekomata.make -y
 ```
 
 * Create a database `<dbname>`
