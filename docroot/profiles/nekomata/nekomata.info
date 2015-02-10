@@ -128,7 +128,7 @@ dependencies[] = views_bulk_operations
 
 dependencies[] = webform
 dependencies[] = webform_hints
-dependencies[webform_optionsmarkup] = 2.0-alpha1
+dependencies[] = webform_optionsmarkup
 
 
 
