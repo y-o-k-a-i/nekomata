@@ -25,6 +25,7 @@ dependencies[] = token
 dependencies[] = ctools
 dependencies[] = rules
 dependencies[] = rules_admin
+dependencies[] = drush_language
 
 
 ; Configuration Management (CMI)
