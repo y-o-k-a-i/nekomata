@@ -254,4 +254,3 @@ dependencies[] = entitycache
 
 dependencies[] = customerror
 dependencies[] = metatag
-dependencies[] = page_title
