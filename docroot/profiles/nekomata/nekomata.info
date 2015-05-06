@@ -141,6 +141,7 @@ dependencies[] = taxonomy_display
 
 dependencies[] = role_delegation
 dependencies[] = login_destination
+dependencies[] = prlp
 dependencies[] = tabtamer
 dependencies[] = logouttab
 
