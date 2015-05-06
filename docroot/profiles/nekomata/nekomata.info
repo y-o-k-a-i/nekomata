@@ -146,6 +146,11 @@ dependencies[] = logouttab
 ; Content Creation
 ; -----------------------------------
 
+; Generation
+
+dependencies[] = auto_entitylabel
+
+
 ; Formats
 
 dependencies[] = better_formats
