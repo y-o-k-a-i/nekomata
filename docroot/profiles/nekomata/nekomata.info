@@ -189,6 +189,7 @@ dependencies[] = view_unpublished
 
 ; Menu
 
+dependencies[] = cacheflush
 dependencies[] = escape_admin
 dependencies[] = masquerade
 
