@@ -23,6 +23,8 @@ dependencies[] = file
 ; Basics 
 dependencies[] = token
 dependencies[] = ctools
+dependencies[] = rules
+dependencies[] = rules_admin
 
 
 ; Configuration Management (CMI)
