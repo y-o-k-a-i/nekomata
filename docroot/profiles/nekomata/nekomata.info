@@ -140,6 +140,7 @@ dependencies[] = taxonomy_display
 ; User
 
 dependencies[] = login_destination
+dependencies[] = tabtamer
 dependencies[] = logouttab
 
 
