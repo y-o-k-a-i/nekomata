@@ -149,6 +149,7 @@ dependencies[] = logouttab
 ; Formats
 
 dependencies[] = better_formats
+dependencies[] = hide_formats
 
 
 ; Inline Editing
