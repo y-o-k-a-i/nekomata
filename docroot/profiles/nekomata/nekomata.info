@@ -246,7 +246,7 @@ dependencies[] = advanced_help
 
 dependencies[] = speedy
 
-dependencies[] = autocache
+;dependencies[] = autocache
 dependencies[] = entitycache
 
 
