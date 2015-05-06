@@ -65,8 +65,8 @@ $ drush make nekomata.make -y
 ```
 
 * Create a database `<dbname>`
-* Check if `sites/default/files` exists and is writable
-* copy `sites/default/default.settings.php` to `settings.php` with `cp default.settings.php settings.php`
+* cd to `cd sites/default` and create a writable files directory `mkdir files; chmod 755 -R files;`
+* copy `sites/default/default.settings.php` to `settings.php` and make it writable `cp default.settings.php settings.php; chmod 755 settings.php`
 
 Then install Drupal, selecting the "Neko-Mata" profile.
 
