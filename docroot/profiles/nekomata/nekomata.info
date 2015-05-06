@@ -237,8 +237,21 @@ dependencies[] fastclick
 dependencies[] = advanced_help
 
 
+
 ; -----------------------------------
 ; Optimizations
 ; -----------------------------------
 
+; Performance
+
 dependencies[] = speedy
+
+dependencies[] = autocache
+dependencies[] = entitycache
+
+
+; SEO
+
+dependencies[] = customerror
+dependencies[] = metatag
+dependencies[] = page_title
