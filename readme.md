@@ -62,6 +62,7 @@ read the readme inside the specific directory.
 ```shell
 $ cd <project-name>/docroot
 $ drush make nekomata.make -y
+$ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 ```
 
 * Create a database `<dbname>`
