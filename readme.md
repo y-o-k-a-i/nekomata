@@ -36,6 +36,11 @@ $ tar -xvf master.zip && rm master.zip
 $ mv nekomata-master <project-name>
 ```
 
+Oneliner
+```shell
+$ wget https://github.com/y-o-k-a-i/nekomata/archive/master.zip; tar -xvf master.zip && rm master.zip; mv nekomata-master <project-name>
+```
+
 Once you download it you will find that every folder contains a readme.md which explains what belongs
 in that specific directory.
 
@@ -69,8 +74,10 @@ $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 * cd to `cd sites/default` and create a writable files directory `mkdir files; chmod -R 777 files;`
 * copy `sites/default/default.settings.php` to `settings.php` and make it writable `cp default.settings.php settings.php; chmod 777 settings.php;`
 
-Or `cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;`
-
+Oneliner
+```shell
+$ cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;`
+```
 
 Then install Drupal, selecting the "Neko-Mata" profile.
 
