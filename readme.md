@@ -73,6 +73,7 @@ $ drush make nekomata.make -y
 #### Download modules / libraries where the profile depends on
 ```shell
 $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
+$ rm -rf sites/all/modules/libraries
 ```
 #### Install additional modules with make files (e.g. dev tools)
 ##### dev tools
