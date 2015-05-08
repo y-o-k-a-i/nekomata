@@ -65,22 +65,22 @@ read the readme inside the specific directory.
 
 ## Install Profile Instructions
 
-### Download modules with profile definition (make files)
+#### Download modules with profile definition (make files)
 ```shell
 $ cd <project-name>/docroot
 $ drush make nekomata.make -y
 ```
-### Download modules / libraries where the profile depends on
+#### Download modules / libraries where the profile depends on
 ```shell
 $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 ```
-### Install additional modules with make files (e.g. i18n suite)
+#### Install additional modules with make files (e.g. i18n suite)
 ```shell
 $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n.make
 $ drush make ../drush/make/yokai-i18n.make --no-core -y
 ```
 
-### Last preparations before the installation process 
+#### Last preparations before the installation process 
 * Create a database `<dbname>` (manually done)
 
 * cd to `cd sites/default` and create a writable files directory `mkdir files; chmod -R 777 files;`
@@ -91,7 +91,7 @@ Oneliner
 $ cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;
 ```
 
-### Start installation either be heading to ... or running the adjusted script below
+#### Start installation either be heading to ... or running the adjusted script below
 Then install Drupal, selecting the "Neko-Mata" profile.
 
 ```shell
