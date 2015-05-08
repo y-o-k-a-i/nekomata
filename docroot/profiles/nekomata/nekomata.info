@@ -124,6 +124,7 @@ dependencies[] = views_ui
 dependencies[] = better_exposed_filters
 dependencies[] = admin_views
 dependencies[] = views_bulk_operations
+dependencies[] = actions_permissions
 
 
 ; Forms
