@@ -74,7 +74,13 @@ $ drush make nekomata.make -y
 ```shell
 $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 ```
-#### Install additional modules with make files (e.g. i18n suite)
+#### Install additional modules with make files (e.g. dev tools)
+dev tools
+```shell
+$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-dev.make
+$ drush make ../drush/make/yokai-dev.make --no-core -y
+```
+i18n suite
 ```shell
 $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n.make
 $ drush make ../drush/make/yokai-i18n.make --no-core -y
