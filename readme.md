@@ -63,7 +63,7 @@ read the readme inside the specific directory.
 * [.gitignore](https://github.com/y-o-k-a-i/nekomata/blob/master/.gitignore)
  * Contains the a list of the most common excluded files.
 
-## Install Profile Instructions
+## Installation instructions
 
 #### Download modules with profile definition (make files)
 ```shell
