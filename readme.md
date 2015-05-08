@@ -83,8 +83,8 @@ $ drush make ../drush/make/yokai-dev.make --no-core -y
 ```
 ##### i18n suite
 ```shell
-$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n.make
-$ drush make ../drush/make/yokai-i18n.make --no-core -y
+$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n-module.make
+$ drush make ../drush/make/yokai-i18n-module.make --no-core -y
 ```
 
 #### Last preparations before the installation process 
