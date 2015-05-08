@@ -76,8 +76,16 @@ $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 
 Oneliner
 ```shell
-$ cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;`
+$ cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;
 ```
+Install additional modules with make files
+
+i18n suite
+```shell
+$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n.make
+$ drush make ../drush/make/yokai-i18n.make --no-core -y
+```
+
 
 Then install Drupal, selecting the "Neko-Mata" profile.
 
