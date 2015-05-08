@@ -36,7 +36,7 @@ $ tar -xvf master.zip && rm master.zip
 $ mv nekomata-master <project-name>
 ```
 
-Oneliner
+##### Oneliner
 ```shell
 $ wget https://github.com/y-o-k-a-i/nekomata/archive/master.zip; tar -xvf master.zip && rm master.zip; mv nekomata-master <project-name>
 ```
@@ -75,12 +75,12 @@ $ drush make nekomata.make -y
 $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 ```
 #### Install additional modules with make files (e.g. dev tools)
-dev tools
+##### dev tools
 ```shell
 $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-dev.make
 $ drush make ../drush/make/yokai-dev.make --no-core -y
 ```
-i18n suite
+##### i18n suite
 ```shell
 $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n.make
 $ drush make ../drush/make/yokai-i18n.make --no-core -y
@@ -92,7 +92,7 @@ $ drush make ../drush/make/yokai-i18n.make --no-core -y
 * cd to `cd sites/default` and create a writable files directory `mkdir files; chmod -R 777 files;`
 * copy `sites/default/default.settings.php` to `settings.php` and make it writable `cp default.settings.php settings.php; chmod 777 settings.php;`
 
-Oneliner
+##### Oneliner
 ```shell
 $ cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;
 ```
