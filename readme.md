@@ -120,7 +120,7 @@ $ drush en devel -y
 ##### Lingotek i18n suite
 ```shell
 $ drush dl lingotek-7.x-7.00
-$ drush en translation i18n_path lingotek -y
+$ drush en translation i18n_path i18n_sync i18n_redirect i18n_user rules_i18n lingotek -y
 ```
 ##### Yokai's i18n suite
 ```shell
