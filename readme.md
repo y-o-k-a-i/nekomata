@@ -87,7 +87,7 @@ $ rm -rf sites/all/modules/libraries
 $ cd sites/default; mkdir files; chmod -R 777 files; cp default.settings.php settings.php; chmod 777 settings.php; ...;
 ```
 
-#### Start installation either be heading to ... or running the adjusted script below
+#### Start installation either be heading to `/install.php` ... or running the adjusted script below
 Then install Drupal, selecting the "Neko-Mata" profile.
 
 ```shell
