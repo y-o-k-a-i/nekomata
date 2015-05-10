@@ -136,6 +136,7 @@ dependencies[] = actions_permissions
 
 dependencies[] = webform
 dependencies[] = webform_hints
+dependencies[] = webform_rules
 
 
 ; Taxonomy
