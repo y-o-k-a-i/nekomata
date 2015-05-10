@@ -116,6 +116,7 @@ $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-
 $ drush make ../drush/make/yokai-dev.make --no-core -y
 $ drush en devel -y
 ```
+### i18n options
 ##### Lingotek i18n suite
 ```shell
 $ drush dl lingotek-7.x-7.00
@@ -126,7 +127,11 @@ $ drush en lingotek -y
 $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n-module.make
 $ drush make ../drush/make/yokai-i18n-module.make --no-core -y
 ```
-
+##### i18n tools (drush_language module)
+```shell
+$ drush language-add de 
+$ drush language-default de
+```
 
 ## Theme Instructions
 
