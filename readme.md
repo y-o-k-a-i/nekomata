@@ -109,16 +109,17 @@ This will give you:
 * The Aurora starter theme
 * (TODO: move content types to own modules, Basic "Page" content type)
 
-## Post Install - add additional modules with make files (e.g. dev tools) or specific modules (i18n lingotek module)
+## Post installation - add additional modules with make files (e.g. dev tools) or specific modules (i18n lingotek module)
 ##### Yokai's dev tools
 ```shell
 $ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-dev.make
 $ drush make ../drush/make/yokai-dev.make --no-core -y
+$ drush en devel -y
 ```
 ##### Lingotek i18n suite
 ```shell
-$ dr dl lingotek-7.x-7.00
-$ dr en lingotek -y
+$ drush dl lingotek-7.x-7.00
+$ drush en lingotek -y
 ```
 ##### Yokai's i18n suite
 ```shell
