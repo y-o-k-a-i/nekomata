@@ -84,6 +84,7 @@ dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_all_day
 dependencies[] = date_popup
+dependencies[] = date_repeat_field
 dependencies[] = email
 dependencies[] = addressfield
 dependencies[] = telephone
@@ -123,8 +124,12 @@ dependencies[] = views_ui
 
 dependencies[] = better_exposed_filters
 dependencies[] = admin_views
+dependencies[] = entityreference_view_widget
+dependencies[] = date_views
+
 dependencies[] = views_bulk_operations
 dependencies[] = actions_permissions
+
 
 
 ; Forms
