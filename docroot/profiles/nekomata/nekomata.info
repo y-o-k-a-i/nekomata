@@ -261,3 +261,8 @@ dependencies[] = entitycache
 
 dependencies[] = customerror
 dependencies[] = metatag
+dependencies[] = metatag_facebook
+dependencies[] = metatag_google_plus
+dependencies[] = metatag_twitter_cards
+dependencies[] = metatag_views
+dependencies[] = metatag_opengraph
