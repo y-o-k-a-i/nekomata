@@ -75,22 +75,6 @@ $ drush make nekomata.make -y
 $ drush make sites/all/modules/contrib/navbar/navbar.make.example --no-core -y
 $ rm -rf sites/all/modules/libraries
 ```
-#### Install additional modules with make files (e.g. dev tools)
-##### Yokai's dev tools
-```shell
-$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-dev.make
-$ drush make ../drush/make/yokai-dev.make --no-core -y
-```
-##### Lingotek i18n suite
-```shell
-$ dr dl lingotek-7.x-7.00
-$ dr en lingotek -y
-```
-##### Yokai's i18n suite
-```shell
-$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n-module.make
-$ drush make ../drush/make/yokai-i18n-module.make --no-core -y
-```
 
 #### Last preparations before the installation process 
 * Create a database `<dbname>` (manually done)
@@ -124,6 +108,24 @@ This will give you:
 * CKEditor with a HTML Purifier based filter and Linkit ready to go
 * The Aurora starter theme
 * (TODO: move content types to own modules, Basic "Page" content type)
+
+## Post Install - add additional modules with make files (e.g. dev tools) or specific modules (i18n lingotek module)
+##### Yokai's dev tools
+```shell
+$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-dev.make
+$ drush make ../drush/make/yokai-dev.make --no-core -y
+```
+##### Lingotek i18n suite
+```shell
+$ dr dl lingotek-7.x-7.00
+$ dr en lingotek -y
+```
+##### Yokai's i18n suite
+```shell
+$ wget -P ../drush/make https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/7-x/yokai-i18n-module.make
+$ drush make ../drush/make/yokai-i18n-module.make --no-core -y
+```
+
 
 ## Theme Instructions
 
