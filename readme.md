@@ -50,7 +50,7 @@ read the readme inside the specific directory.
 * [docroot](https://github.com/y-o-k-a-i/nekomata/tree/master/docroot)
  * Where your drupal root should start.
 * [drush](https://github.com/y-o-k-a-i/nekomata/tree/master/drush)
- * Contains project specific drush commands, aliases, and configurations.
+ * Contains project specific drush commands, aliases, configurations, and make files.
 * [results](https://github.com/y-o-k-a-i/nekomata/tree/master/results)
  * This directory is just used to export test results to. A good example of this
    is when running drush test-run with the --xml option. You can export the xml
