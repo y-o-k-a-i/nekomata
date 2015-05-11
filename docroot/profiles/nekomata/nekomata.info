@@ -68,7 +68,7 @@ dependencies[] = rh_taxonomy
 dependencies[] = menu_position
 dependencies[] = menu_block
 dependencies[] = menu_attributes
-dependencies[] = simplified_menu_admin
+dependencies[] = content_menu
 
 
 ; Entities
