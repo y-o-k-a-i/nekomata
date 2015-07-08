@@ -1,4 +1,6 @@
-== Files to  exclude ==
+# DeployHQ setting
+
+## Files to exclude
 
 */.gitignore
 docroot/db/*
