@@ -1,7 +1,8 @@
-# DeployHQ setting
+# DeployHQ settings
 
 ## Files to exclude
 
+```shell
 */.gitignore
 docroot/db/*
 docroot/patches/*
@@ -21,3 +22,4 @@ docroot/sites/all/themes/project/package*.json
 docroot/sites/all/themes/project/sass/*
 docroot/sites/all/themes/project/templates_static/*
 docroot/sites/all/themes/project/images/icon/iconslate/*
+```
